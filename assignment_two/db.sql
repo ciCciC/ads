@@ -17,7 +17,7 @@ create table instructor (
 );
 
 create table student(
-    ID integer primary key,
+    ID integer primary key autoincrement,
     name varchar(20),
     dept_name varchar(20),
     tot_cred integer,
